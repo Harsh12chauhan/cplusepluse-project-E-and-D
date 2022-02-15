@@ -58,12 +58,12 @@ var encrypt(int argc, char *argv[])
 var decrypt(int argc, char *argv[])
 {
     string str2;
-    // cout << "Enter your string here : ";
-    // getline(cin, str2);
-    for (int i = 2; i < argc; i++)
-    {
-        str2 = str2 + argv[i] + " ";
-    }
+    cout << "Enter your string here : ";
+    getline(cin, str2);
+    // for (int i = 2; i < argc; i++)
+    // {
+    //     str2 = str2 + argv[i] + " ";
+    // }
     int j = str2.size() - 1;  // last element
     char d = str2[j];
     int o = char(d);
